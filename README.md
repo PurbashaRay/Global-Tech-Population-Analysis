@@ -3,8 +3,8 @@
 This project analyzes global population data using pandas and matplotlib.pyplot. 
 The dataset is loaded from RR-PRAC3-population.csv into a DataFrame df. All analyses are performed using Python scripts, primarily in python_task.py.
 
-####    File name:RR-PRAC3-population.csv
-####    Dataset: 
+####    Dataset: [Data](https://github.com/PurbashaRay/Global-Tech-Population-Analysis/blob/4dab4f195cd5f248f91398db2002fb6826cab3af/RR-PRAC3%20-%20population.csv)
+####    Fields: 
         ID
         Country name
         Continent
@@ -44,7 +44,7 @@ I filtered the dataset for African countries in the year 2010 and stored it in t
 Using the .sum() function, I calculated the total population and assigned it to total_sum_africa.
 To visualise the population distribution across all African countries in 2010, I created a bar chart with country names on the x-axis and population on the y-axis.
 
-Chart: ![African population chart 2010](https://github.com/DA-LON14/Purbasha_PythonTask/blob/main/Question2.png)
+Chart: ![African population chart 2010](https://github.com/PurbashaRay/Global-Tech-Population-Analysis/blob/4dab4f195cd5f248f91398db2002fb6826cab3af/Question2.png)
 
 ##### Insight:
 Among African countries in 2010, Nigeria and Ethiopia had the highest populations, while approximately 9 countries reported a population of 0, indicating missing or unrecorded data.
@@ -62,7 +62,7 @@ I calculated the average population using .mean() and stored it in avg_pop.
 Countries with population above the average were stored in coun_above_avg, and the remaining countries were stored in coun_below_avg. Both lists were displayed for reference.
 Finally, I created a bar chart to visualize the population of all South American countries, highlighting which countries are above or below the average.
 
- Chart:![SA population in 2000](https://github.com/DA-LON14/Purbasha_PythonTask/blob/main/Question3.png)
+ Chart:![SA population in 2000](https://github.com/PurbashaRay/Global-Tech-Population-Analysis/blob/4dab4f195cd5f248f91398db2002fb6826cab3af/Question3.png)
 
 Insight:
 This highlights population concentration in a few major nations versus sparsely populated regions.
@@ -79,8 +79,8 @@ Since there are 213 countries in the dataset for the year 2007, the chart displa
 The x-axis represents country names, and the y-axis represents population.
 Countries with populations exceeding 1000 million are highlighted in red, while the rest are shown in green for clear visual distinction.
 
-Chart1 ![All countries in year 2007](https://github.com/DA-LON14/Purbasha_PythonTask/blob/main/Question4_1.png)
-Chart2 ![Top 20 Country](https://github.com/DA-LON14/Purbasha_PythonTask/blob/main/Question4_2.png)
+Chart1 ![All countries in year 2007](https://github.com/PurbashaRay/Global-Tech-Population-Analysis/blob/4dab4f195cd5f248f91398db2002fb6826cab3af/Question4_1.png)
+Chart2 ![Top 20 Country](https://github.com/PurbashaRay/Global-Tech-Population-Analysis/blob/4dab4f195cd5f248f91398db2002fb6826cab3af/Question4_2.png)
 
 ##### Insight:
 Population distribution shows a long tail, with most countries below 200 million, emphasizing global population imbalance.
@@ -103,7 +103,7 @@ I then created a pivot table named growth, which transformed the data from europ
 Using this pivot table, I calculated both the absolute growth and growth rate for each country.
 Finally, I created a line chart to visualize the population growth trends of the top 5 European countries during this period.
 
-Chart:![Top5 European country](https://github.com/DA-LON14/Purbasha_PythonTask/blob/main/question5.png)
+Chart:![Top5 European country](https://github.com/PurbashaRay/Global-Tech-Population-Analysis/blob/4dab4f195cd5f248f91398db2002fb6826cab3af/question5.png)
 
 
 ##### Insights:
